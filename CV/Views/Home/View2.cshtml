@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="cvSite">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="~/img/favicon.ico" type="image/x-icon" />
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="~/styles/bootstrap.min.css">
+    <!-- ANIMATIONS -->
+    <link rel="stylesheet" href="~/styles/animate.css">
+    <!--WOW-->
+    <script src="~/scripts/libraries/wow.min.js"></script>
+    <!--LETTERING-->
+    <script src="~/scripts/libraries/jquery.lettering-0.6.1.min.js"></script>
+    <script src="~/scripts/libraries/jquery.fittext.js"></script>
+    <!-- ANGULAR -->
+    <script src="~/scripts/libraries/angular-1.2.min.js"></script>
+    <script src="~/scripts/libraries/jquery.easing.js"></script>
+    <script src="~/scripts/angularApp.js"></script>
+    <script src="~/scripts/controllers/mainController.js"></script>
+    <script src="~/scripts/directives/nkFittext.js"></script>
+
+    <script src="~/scripts/parallax.js"></script>
+    <!-- CUSTOM -->
+    <link href='http://fonts.googleapis.com/css?family=Orbitron|Questrial|Ubuntu+Condensed|Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/styles/view2.css">
+    <link rel="stylesheet" href="~/styles/ihover.min.css">
+    <!--FONT AWESOME-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <meta http-equiv="content-language" content="en" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="dns-prefetch" href="//code.jquery.com" />
+
+    <title>Neil Kenny</title>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" ng-controller="mainController">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#aboutme">about me</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#skills">skills</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#experience">experience</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#education">education</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <section id="second" class="story" data-speed="4" data-type="background">
+        <div id="title" class="wow zoomInDown" nk-fittext="0.8">neilkenny.net</div>
+        <div id="firstdown">
+            <a href="#aboutme" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+    </section>
+    <section id="aboutme" data-type="sectionscroll" data-offsety="200" data-speed="4" class="story">
+        <div class="sectionheadercontainer">
+            <div class="whoami sectionheader" id="a0">who?</div>
+        </div>
+        <div>
+            <div id="ca1">
+                <div class="whoami" id="a1">Software Developer</div>
+            </div>
+            <div id="ca2">
+                <div class="whoami" id="a2">Keen interest in technology</div>
+            </div>
+            <div id="ca3">
+                <div class="whoami" id="a3">Loves learning new skills</div>
+            </div>
+            <div id="ca4">
+                <div class="whoami" id="a4">Creative</div>
+            </div>
+            <div id="ca5">
+                <div class="whoami" id="a5">Hard worker</div>
+            </div>
+            <div id="ca6">
+                <div class="whoami" id="a6">Quick learner</div>
+            </div>
+            <div id="ca7">
+                <div class="whoami" id="a7">Hits the ground running</div>
+            </div>
+            <div id="ca8">
+                <div class="whoami" id="a8">Works well in a team</div>
+            </div>
+            <div id="ca9">
+                <div class="whoami" id="a9">Attention to detail</div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="story">
+        <div class="sectionheadercontainer">
+            <div class="whoami sectionheader">what?</div>
+        </div>
+
+        <div class="hover-holder" id="angular">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/pic_angular.jpg" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>Angular JS</h3>
+                            <p>2 Years experience of a brand new framework</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="hover-holder" id="csharp">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/csharp.png" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>C#</h3>
+                            <p>Over 6 years experience, up to .NET 4.5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="hover-holder" id="htmlcssjs">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/html5-css3-js.png" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>Angular JS</h3>
+                            <p>HTML5, CSS3, Javascript. Modern standards</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="hover-holder" id="json">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/json.png" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>JSON</h3>
+                            <p>Developed a large application using Angular with rich client data model using JSON objects</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="hover-holder" id="mvc">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/mvc.jpg" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>MVC</h3>
+                            <p>Worked with MVC 4 on large web application for 2 years</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="hover-holder" id="sqlserver">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/SQLServer.jpg" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>SQL Server</h3>
+                            <p>7 years of using SQL backed applications</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="hover-holder" id="webapi">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/WebApi.jpg" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>Web API</h3>
+                            <p>Created an application with RESTful Web API services layer which used JSON objects to send message between client and server</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="hover-holder" id="jquery">
+            <div class="ih-item circle effect1">
+                <a href="#">
+                    <div class="spinner"></div>
+                    <div class="img">
+                        <img src="~/images/jquery.gif" alt="img"></div>
+                    <div class="info">
+                        <div class="info-back">
+                            <h3>jQuery</h3>
+                            <p>Have extensive experience using jQuery on multiple web projects</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ca6">
+            <div class="whoami" id="a6">T-SQL</div>
+        </div>
+        <div id="ca7">
+            <div class="whoami" id="a7">JSON</div>
+        </div>
+        <div id="ca8">
+            <div class="whoami" id="a8">Web API</div>
+        </div>
+        <div id="ca9">
+            <div class="whoami" id="a9">WCF</div>
+        </div>
+        <div id="ca9">
+            <div class="whoami" id="a9">JQuery</div>
+        </div>
+        <div id="ca9">
+            <div class="whoami" id="a9"></div>
+        </div>
+    </section>
+    <section id="experience" class="story" data-type="sectionscroll" data-offsety="800" data-speed="4">
+        <div class="sectionheadercontainer">
+            <div class="whoami sectionheader" id="a0">Where?</div>
+        </div>
+        <div>
+            <div>
+                <div>Fintrax Group</div>
+            </div>
+            <div>
+                <div>Vulcan Solutions</div>
+            </div>
+            <div>
+                <div>Candidate Manager</div>
+            </div>
+            <div>
+                <div>Microsoft Ireland</div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="story">
+        <div class="sectionheadercontainer">
+            <div class="whoami sectionheader">how?</div>
+        </div>
+        <div>
+            <div>IT Sligo</div>
+        </div>
+        <div>
+            <div>DIT</div>
+        </div>
+    </section>
+    <section id="footersection">
+        <div></div>
+    </section>
+
+
+
+    <script>
+        wow = new WOW(
+          {
+              animateClass: 'animated',
+              offset: 100
+          }
+        );
+        wow.init();
+    </script>
+</body>
+</html>
